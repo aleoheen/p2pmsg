@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.8295f35b07b5b5361a7b486531d52a0a.js"
+  "precache-manifest.e26a22fd5606108cbcb7ab9d9dce565f.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "p2pmsg"});
