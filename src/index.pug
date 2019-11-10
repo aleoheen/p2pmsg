@@ -1,0 +1,31 @@
+-
+	var description_ru = 'P2P Мессенджер'; 
+	var description_en = 'Simple p2p messenger';
+
+	var title = 'Simple p2p messenger';
+
+//- === === === === ===
+//- HTML
+//- === === === === ===
+
+<!DOCTYPE html>
+html
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no")
+
+		title #{title}
+
+		//- === === === === ===
+		//- Little SEO
+		//- === === === === ===
+
+		meta(name="description", lang="ru", content=description_ru)
+		meta(name="description", lang="en", content=description_en)
+
+		meta(property="og:title", content=title)
+		meta(property="og:description", content=description_en)
+		meta(property="og:image", content='https://git.aleoheen.org/p2pmsg/img/poster.jpg')
+
+	body
+		#app
